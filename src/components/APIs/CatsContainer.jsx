@@ -18,6 +18,7 @@ export default function CatsContainer() {
   }, []);
 
   //Cambio realizado en rama prueba1.
+  //Cambio agregado desde CambioDesdePrueba1
 
   return <div>{cat.fact && <Cats cat={cat}/>}</div>;
 }
